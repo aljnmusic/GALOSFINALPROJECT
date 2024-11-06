@@ -1,0 +1,319 @@
+body {
+    background-image: url(images/14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    border: 2px solid black;
+    border: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1570px;
+    height: 96vh;
+}
+
+.header p{
+    text-align: center;
+    border: 2px solid black;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-left: 35px;
+    color: white;
+    text-shadow: 0 0 5px rgb(51, 50, 50);
+    font-size: 20px;
+    font-family: monospace;
+    animation-name: slideup;
+    animation-duration: 2s;
+}
+
+.header p::first-letter{
+    color: rgb(135, 250, 225);
+}
+
+.header p:hover{
+    text-shadow: 0 0 5px black;
+    transition: 0.5s;
+    font-size: 50px;
+}
+
+
+.container .header{
+    border: 2px solid green;
+    border: none;
+    width: 1450px;
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 100px;
+}
+
+.header .nav{
+    position: fixed;
+    border: 2px solid rgb(0, 41, 128);
+    border: none;
+    width: 1350px;
+    margin-left: 40px;
+    margin-top: 0px;
+    height: 50px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(240, 47%, 85%, 0.5);
+    padding: 0px;
+    margin: 0px; 
+}
+
+.navbar a{
+    color: white;
+    text-shadow: 0 0 5px black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    animation-name: slideright;
+    animation-duration: 2s;
+    font-family: monospace;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.navbar a:hover{
+    /* box-shadow: 0 0 10px rgb(47, 144, 235); */
+    /* border: 2px solid rgb(250, 200, 208); */
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+    text-shadow: 2px 2px 4px rgb(250, 200, 208);
+}
+
+.navbar li {
+    float: right;
+    overflow: hidden;  
+}
+
+i{
+    padding: 5px;
+}
+
+.logo {
+    float: left;         
+    width: 50px;         
+    height: auto;        
+    margin-right: 20px;  
+    border-radius: 5px;
+    opacity: 0.5;
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+
+.logo:hover{
+    box-shadow: 0 0 15px lightblue;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.wrapper{
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 550px;
+    width: 40%;
+    margin-left: 140px;
+    background-color: lightblue;
+    display: flex;
+    background-image: linear-gradient(to bottom, #9becf4, #ace8ff, #cae1ff, #e8dbff, #fdd7f0);
+    animation-name: slideright;
+    animation-duration: 2s;
+    /* opacity: 0.5; */
+}
+
+.wrapper:hover{
+    background-image: linear-gradient(to top, #9becf4, #ace8ff, #cae1ff, #e8dbff, #fdd7f0);
+    transition: 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wrapper:hover .mylogo {
+    display: none; /* Hide the original image when hovering */
+}
+
+.wrapper:hover .mylogo2 {
+    display: inline-block; /* Show the new image when hovering */
+}
+
+.content1{
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+.details{
+    height: 80%;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.details p{
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+    animation-name: slideright;
+    animation-duration: 2s;
+    line-height: 1.4;
+}
+
+.mylogo{
+    width: 200px;
+    box-shadow: 0 0 5px black;
+}
+
+.mylogo2{
+    width: 200px;
+    display: none;
+    box-shadow: 0 0 5px black;
+}
+
+.content2{
+    border: 1px solid black;
+    border: none;
+    height: 100%;
+    width: 50%;
+}
+
+.wrapper2{
+    font-size: 18px;
+    border: 1px solid black;
+    width: 37%;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #9becf4, #ace8ff, #cae1ff, #e8dbff, #fdd7f0);
+    font-style: italic;
+    margin-left: 50%;
+    margin-top: -35.1%;;
+    padding-left: 15px;
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+
+.wrapper2 p{
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+
+.wrapper2:hover{
+    background-image: linear-gradient(to top, #9becf4, #ace8ff, #cae1ff, #e8dbff, #fdd7f0);
+    transition: 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.order{
+    border: 1px solid black;
+    width: 38%;
+    margin-left: 50%;
+    margin-top: 15px;
+    background-image: linear-gradient(to bottom, #9becf4, #ace8ff, #cae1ff, #e8dbff, #fdd7f0);
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+
+.order:hover{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to top, #9becf4, #ace8ff, #cae1ff, #e8dbff, #fdd7f0);
+}
+
+ul{
+    list-style-type: none;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+li{
+    padding-top: 10px;
+    font-style: italic;
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+
+.fave{
+    border: 1px solid black;
+    width: 12%;
+    height: 36%;
+    margin-left: 50%;
+    margin-top: 15px;
+    background-image: linear-gradient(to bottom, #9becf4, #ace8ff, #cae1ff, #e8dbff, #fdd7f0);
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+
+li{
+    padding-top: 0px;
+    text-align: center;
+    font-style: italic;
+}
+
+.fave:hover{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to top, #9becf4, #ace8ff, #cae1ff, #e8dbff, #fdd7f0);
+}
+
+.artist{
+    border: 1px solid black;
+    width: 12%;
+    height: 36%;
+    margin-left: 63%;
+    margin-top: -258px;
+    background-image: linear-gradient(to bottom, #9becf4, #ace8ff, #cae1ff, #e8dbff, #fdd7f0);
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+
+.artist:hover{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to top, #9becf4, #ace8ff, #cae1ff, #e8dbff, #fdd7f0);
+}
+
+.genre{
+    border: 1px solid black;
+    width: 12%;
+    height: 36%;
+    margin-left: 76%;
+    margin-top: -258px;
+    background-image: linear-gradient(to bottom, #9becf4, #ace8ff, #cae1ff, #e8dbff, #fdd7f0);
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+
+.genre:hover{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to top, #9becf4, #ace8ff, #cae1ff, #e8dbff, #fdd7f0);
+}
+
+@keyframes grow{
+    100%{transform: scale(2, 2)}
+}
+
+@keyframes grow1{
+    100%{transform: scale(2, 2)}
+}
+
+@keyframes slideup{
+    from{transform: translateY(300%)}
+}
+
+@keyframes slideright{
+    from{transform: translateX(300%)}
+}
+
+@keyframes slideleft{
+    to{transform: translateX(300%);}
+}
+
+@keyframes slidedown{
+    to{transform: translateY(300%);}
+}

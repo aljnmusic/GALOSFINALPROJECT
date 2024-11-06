@@ -1,0 +1,298 @@
+
+
+body {
+    background-image: url(images/16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    border: 2px solid black;
+    border: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1570px;
+    height: 96vh;
+}
+
+.header p{
+    text-align: center;
+    border: 2px solid black;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-left: 35px;
+    color: white;
+    text-shadow: 0 0 5px rgb(51, 50, 50);
+    font-size: 20px;
+    font-family: monospace;
+    animation-name: slideup;
+    animation-duration: 2s;
+}
+
+.header p::first-letter{
+    color: rgb(135, 250, 225);
+}
+
+.header p:hover{
+    text-shadow: 0 0 5px black;
+    transition: 0.5s;
+    font-size: 50px;
+}
+
+
+.container .header{
+    border: 2px solid green;
+    border: none;
+    width: 1450px;
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 100px;
+}
+
+.header .nav{
+    position: fixed;
+    border: 2px solid rgb(0, 41, 128);
+    border: none;
+    width: 1350px;
+    margin-left: 40px;
+    margin-top: 0px;
+    height: 50px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(240, 47%, 85%, 0.5);
+    padding: 0px;
+    margin: 0px; 
+}
+
+.navbar a{
+    color: white;
+    text-shadow: 0 0 5px black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    animation-name: slideright;
+    animation-duration: 2s;
+    font-family: monospace;
+}
+
+.navbar a:hover{
+    /* box-shadow: 0 0 10px rgb(47, 144, 235);
+    border: 2px solid rgb(250, 200, 208); */
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+    text-shadow: 2px 2px 4px rgb(250, 200, 208);
+}
+
+.navbar li {
+    float: right;
+    overflow: hidden;  
+}
+
+i{
+    padding: 5px;
+}
+
+.logo {
+    float: left;         
+    width: 50px;         
+    height: auto;        
+    margin-right: 20px;  
+    border-radius: 5px;
+    opacity: 0.5;
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+
+.logo:hover{
+    box-shadow: 0 0 15px lightblue;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.wrapper{
+    border: 2px solid black;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 550px;
+    width: 80%;
+    margin-left: 150px;
+    /* background-color: lightblue; */
+    background-image: linear-gradient(to left, #9becf4, #ace8ff, #cae1ff, #e8dbff, #fdd7f0);
+    /* opacity: 0.5; */
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+
+.wrapper:hover{
+    box-shadow: 0 0 5px white;
+    /* background-color: rgb(88, 216, 233); */
+    /* background-image: linear-gradient(to bottom, #0a5fe0, #7b53da, #b042cb, #d92ab5, #f60799); */
+    background-image: linear-gradient(to right, #9becf4, #ace8ff, #cae1ff, #e8dbff, #fdd7f0);
+    transition: 0.5s;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+.wrapper #con{
+    color: black;
+    font-size: 30px;
+    margin-left: 100px;
+    padding-top: 30px;
+    border: 1px solid black;
+    border: none;
+    width: 300px;
+    height: 30px;
+    font-style: italic;
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+
+.content1{
+    border: 1px solid black;
+    border: none;
+    width: 500px;
+}
+
+.wrapper #name{
+    margin-left: 100px;
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation-name: slideright;
+    animation-duration: 1s;
+}
+
+.wrapper #email{
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+
+.wrapper #msg{
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 355px;
+    height: 200px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation-name: slideright;
+    animation-duration: 3s;
+}
+
+#msg p{
+    text-align: left;  
+    vertical-align: top;
+    padding-top: 0px;
+}
+
+#send{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: pink;
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+
+.wrapper .content2{
+    border: 1px solid black;
+    border: none;
+    width: 500px;
+    height: 400px;
+    margin-left: 750px;
+    margin-top: -520px;
+}
+
+.content2 p{
+    border: 1px solid black;
+    font-size: 33px;
+    color: black;
+    margin-top: 15px;
+    padding-top: 20px;
+    border: 1px solid black;
+    border: none;
+    width: 300px;
+    height: 30px;
+    font-style: italic;
+    animation-name: slideright;
+    animation-duration: 2s;
+
+}
+
+.contact ul{
+    list-style-type: none;
+    width: 100px;
+    align-items: left;
+    border: 1px solid black;
+    border: none;
+    width: 450px;
+    height: 100px;
+    margin-top: 35px;
+    text-align: left;
+    padding: 0;
+}
+
+.contact li{
+    text-align: left;
+    margin-bottom: 10px;
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+
+.contact i{
+    font-size: 25px;
+    margin-right: 10px;
+    color: black;
+    animation-name: slideright;
+    animation-duration: 3s;
+}
+
+.contact a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-family: monospace;
+    text-shadow: 0 0 5px white; 
+    animation-name: slideright;
+    animation-duration: 4s;
+}
+
+
+
+
+@keyframes slideup{
+    from{transform: translateY(300%)}
+}
+
+@keyframes slideright{
+    from{transform: translateX(300%)}
+}
+
+@keyframes slideleft{
+    to{transform: translateX(300%);}
+}
+
+@keyframes slidedown{
+    to{transform: translateY(300%);}
+}
